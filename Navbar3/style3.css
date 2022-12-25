@@ -1,0 +1,136 @@
+:root{
+    --colorBotones: #5E5FF1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+
+header{
+    width: 100vw;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+
+}
+
+a, button {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    
+}
+
+.botonNav{
+    color: white;
+    background-color: var(--colorBotones);
+    border: none;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav > a{
+    margin-right: 40px;
+}
+
+.logo{
+    margin-left: 85px ;
+}
+
+img{
+    width: 6rem;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(59deg, rgba(63, 68, 98, 1) 2%, rgba(62,5,16,0.2) 83%)
+}
+
+.botonMain{
+    cursor: pointer;
+    width: 12rem;
+    height: 4rem;
+    font-size: 20px;
+    text-decoration: underline;
+    border: dashed;
+    border-width: 2px 4px;
+    border-radius: 40px;
+    background: var(--colorBotones);
+    
+}
+
+.botonNav:hover{
+    background: linear-gradient(59deg, rgba(63, 68, 98, 1) 2%, rgba(62,5,16,0.2) 83%);
+}
+.botonMain:hover{
+    background: transparent;
+}
+
+.imgUsuario{
+    border-radius: 50%;
+    width: 35px;
+}
+
+.menuDer{
+    
+    margin-right: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+    
+    
+}
+
+.menuDer > a{
+    margin-left: 20px;
+}
+
+.menuIzq{
+    
+    display: flex;
+    align-items: center;
+ 
+   
+    
+    
+    
+    
+}
+
+.search {  
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 0.5em;
+    padding: 13px;
+    padding-left: 2.5rem;
+    margin-left: 30px;
+
+}
+
+.lupa{
+    position: relative;
+    right: 205px;
+    cursor: pointer;
+}
+
+nav{
+    margin-left: 10px;
+    
+}

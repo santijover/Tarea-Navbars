@@ -1,0 +1,96 @@
+:root{
+    --colorBotones: #5E5FF1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+
+header{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+a, button {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    
+}
+
+.botonNav{
+    color: white;
+    background-color: var(--colorBotones);
+    border: none;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav > a{
+    margin-left: 40px;
+}
+
+div > a{
+    margin-right: 15px;
+}
+
+img{
+    width: 6rem;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(59deg, rgba(63, 68, 98, 1) 2%, rgba(62,5,16,0.2) 83%)
+}
+
+.botonMain{
+    cursor: pointer;
+    width: 12rem;
+    height: 4rem;
+    font-size: 20px;
+    text-decoration: underline;
+    border: dashed;
+    border-width: 2px 4px;
+    border-radius: 40px;
+    background: var(--colorBotones);
+    
+}
+
+.botonNav:hover{
+    background: linear-gradient(59deg, rgba(63, 68, 98, 1) 2%, rgba(62,5,16,0.2) 83%);
+}
+.botonMain:hover{
+    background: transparent;
+}
+
+.imgUsuario{
+    border-radius: 50%;
+    width: 35px;
+}
+
+.menuDer{
+    display: flex;
+    
+    align-items: center;
+}
+
+.menuIzq{
+    display: flex;
+    align-items: center;
+    margin-right: 14rem;
+}
