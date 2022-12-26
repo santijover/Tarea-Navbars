@@ -1,0 +1,105 @@
+:root{
+    --colorBotones: #5E5FF1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header{
+    width: 100vw;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+a, button {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.imgUsuario{
+    border-radius: 50%;
+    width: 35px;
+}
+
+.logo{
+    margin-left: 85px ;
+    margin-right: 20px;
+}
+
+img{
+    width: 6rem;
+}
+
+.divIconos{
+    display: flex;
+    align-items: center;
+}
+
+.divIconos > a{
+    margin-left: 20px;    
+} 
+
+.divInput{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.buscador {  
+    background-color: transparent;
+    border: 1px solid #E9E9EB;
+    border-radius: 0.5em;
+    padding: 13px;
+    padding-left: 2.5rem;
+    padding-right: 12rem;   
+}
+
+.lupa{
+    
+    position: relative;
+    right: 370px;
+    cursor: pointer;
+}
+
+
+/* Main */
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(59deg, rgba(63, 68, 98, 1) 2%, rgba(62,5,16,0.2) 83%)
+}
+
+.botonMain{
+    cursor: pointer;
+    width: 12rem;
+    height: 4rem;
+    font-size: 20px;
+    text-decoration: underline;
+    border: dashed;
+    border-width: 2px 4px;
+    border-radius: 40px;
+    background: var(--colorBotones);
+    
+}
+.botonNav:hover{
+    background: linear-gradient(59deg, rgba(63, 68, 98, 1) 2%, rgba(62,5,16,0.2) 83%);
+}
+.botonMain:hover{
+    background: transparent;
+}
+
+

@@ -91,10 +91,7 @@ main{
     margin-right: 6rem;
     display: flex;
     justify-content: center;
-    align-items: center;
-
-   
-    
+    align-items: center; 
     
 }
 
@@ -105,13 +102,7 @@ main{
 .menuIzq{
     
     display: flex;
-    align-items: center;
- 
-   
-    
-    
-    
-    
+    align-items: center;  
 }
 
 .search {  
